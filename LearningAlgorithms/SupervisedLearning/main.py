@@ -17,7 +17,7 @@ models = {
 }
 
 # Read the train data from the file and divide it into X(evidence) and y(label)
-with open('/Users/ritayanbanerjee/Desktop/SearchAlgorithms/LearningAlgorithms/SupervisedLearning/train.csv') as f:
+with open('/SearchAlgorithms/LearningAlgorithms/train.csv') as f:
     reader = csv.reader(f)
     next(reader)
     data_train = []
@@ -27,7 +27,7 @@ X_train = [row["evidence"] for row in data_train]
 y_train = [row["label"] for row in data_train]
 
 # Read the test data from the file and divide it into X(evidence) and y(label)
-with open('/Users/ritayanbanerjee/Desktop/SearchAlgorithms/LearningAlgorithms/SupervisedLearning/test.csv') as f:
+with open('/SearchAlgorithms/LearningAlgorithms/test.csv') as f:
     reader = csv.reader(f)
     next(reader)
     data_test = []
