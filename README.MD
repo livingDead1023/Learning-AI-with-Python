@@ -18,4 +18,9 @@ You might need model.py especially the HillClimbingAlgorithm.steepest_ascent fun
 This folder includes 2 files: problem1.py and problem2.py; where in problem 1 involves linear programming methods and you might want to save it for the future as it describes how to use scipy for linear problems, problem 2 involves CSP and 2 solutions have been provided. It'd be helpful for the future as if you want to build a backtracking search model, it would really help out.
 
 ## Learning Algorithms
+
+### Supervised Learning
 This folder contains 2 datasets(train.csv, test.csv) and main.py runs several ML Algorithms on it. 2 plots have been provided to show the outputs(accuracy and loss). The first one is without config of KNN and second one shows what happens after max configuration of KNN; any values above 300 will give a comparatively worse accuracy. 
+
+### Reinforcement Learning
+This folder contains 2 files - nim.py which has been taken from HarvardX CS50 GitHub Repository, and the main.py is used to implement the module and make an agent for playing the game of Nim.
