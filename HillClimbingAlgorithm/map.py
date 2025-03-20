@@ -72,5 +72,5 @@ if __name__ == "__main__":
     num_houses = 15
 
     map_grid = generate_map(width, height, num_houses)
-    save_map_to_file(map_grid, 'map.txt')
-    draw_map(map_grid, 'map.png')
+    save_map_to_file(map_grid, 'maps/map.txt')
+    draw_map(map_grid, 'maps/map.png')

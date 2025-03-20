@@ -148,7 +148,7 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         filename = sys.argv[1]
     else:
-        filename = "map.txt"  # Default filename
+        filename = "maps/map.txt"  # Default filename
 
     try:
         map_grid, height, width, num_houses, num_hospitals = load_map_from_file(filename)
